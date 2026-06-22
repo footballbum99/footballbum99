@@ -6,7 +6,7 @@
 ### 🚀 About Me  
 Data analyst specializing in **Python‑based automation**, **statistical modeling**, and **API‑driven analytics**. I build end‑to‑end analytical workflows using **Pandas**, **NumPy**, **scikit‑learn**, and modern visualization libraries to automate reporting, optimize pipelines, and deliver reproducible insights.
 
-I work extensively with **SQL**, **Power BI**, and cloud‑based data platforms, transforming complex financial and operational datasets into **decision‑ready outputs** that drive business impact.
+I work extensively with **Python**, **SQL**, **Power BI**, and cloud‑based data platforms, transforming complex financial and operational datasets into **decision‑ready outputs** that drive business impact.
 
 ---
 
