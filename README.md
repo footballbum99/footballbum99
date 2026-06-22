@@ -1,81 +1,10 @@
-## Hi there 👋
+<h1 align="center">Hi 👋, I'm Chris</h1>
+<h3 align="center">A passionate fullstack developer from Nashville</h3>
 
-<!--
-**footballbum99/footballbum99** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+</p>
 
-Metro Payroll Analytics — Automated Data Pipeline & Streamlit Dashboard
-An end‑to‑end Python application that automates payroll data collection, cleans and structures financial datasets, and delivers an interactive analytics dashboard for exploring employee compensation across branches, job classes, and fiscal years.
-This project combines web automation, data engineering, and interactive visualization into a single, reproducible workflow.
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.chartjs.org" target="_blank" rel="noreferrer"> <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a> <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.selenium.dev" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/> </a> <a href="https://www.sketch.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sketchapp/sketchapp-icon.svg" alt="sketch" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
 
-Project Overview
-This application:
-Automatically downloads payroll CSV files from a dynamic website using Selenium
-Cleans and normalizes financial fields (Regular Pay, Overtime, Bonuses, etc.)
-Derives new metrics such as Total Pay and Extra Pay
-Allows users to explore data by single year or multi‑year comparison
-Provides drill‑down navigation from Branch → Job Class → Employee
-Displays interactive tables, metrics, and filters through Streamlit
-The result is a powerful tool for analyzing compensation trends across a large public workforce.
-
-Tech Stack:
-Python 3.x
-Selenium — automated CSV download
-pandas — data cleaning, type fixing, aggregation
-Streamlit — multi‑tab dashboard with drill‑down navigation
-Session State — persistent UI navigation
- WebDriver
-
-
-Key Features
-Automated Data Cleaning & Type Fixing
-The app standardizes all pay columns using a custom clean_currency() function and ensures numeric consistency across fiscal year
-Derived Financial Metrics
-Total Pay = sum of all pay categories
-Extra Pay = Total Pay − Regular Pay − Overtime Pay
-Multi‑Year Analysis
-Users can toggle between:
-Single Year View
-Multi‑Year Comparison View
-The UI dynamically adjusts labels and summaries based on selection.
-Multi‑Level Drill‑Down Navigation
-The dashboard supports hierarchical exploration
-Branch → Employee Roster → Employee History
-This is powered by Streamlit’s session_state and row‑selection events.
-Rich, Multi‑Tab Dashboard
-Summary & Breakdown — KPIs and pay category totals
-Branch Breakdown — drill‑down into branches and employees
-Job Class Breakdown — filter by branch and explore job types
-Highest Paid Employees — Total Pay ≥ $120K
-Most Overtime — OT ≥ $30K
-Most Extra Pay — Extra Pay ≥ $30K
-Raw Data Explorer — name search + pay range slider
-
-Architecture
-Selenium Scraper
-      ↓
-Raw CSV Files
-      ↓
-pandas Cleaning & Transformation
-      ↓
-Derived Metrics (Total Pay, Extra Pay)
-      ↓
-Streamlit Dashboard (7 Tabs + Drill‑Down Navigation)
-
-Project Structure
-├── scrape.py              # Selenium automation for CSV download
-├── app.py                 # Streamlit dashboard (main UI)
-├── utils/                 # Helper functions (clean_currency, loaders, etc.)
-├── data/                  # Raw downloaded CSVs
-├── processed/             # Cleaned datasets
-├── requirements.txt
-└── README.md
-Running the App
-python scrape.py
-streamlit run app.py
-Dashboard Preview
-Future Enhancements
-Automated scheduling (cron, Task Scheduler)
-Database backend (PostgreSQL / SQLite)
-Docker containerization
-Cloud deployment (Streamlit Cloud, Azure App Service)
-API layer for external consumption
