@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Chris</h1>
-<h3 align="center">Data Analyst • Python Automation • Statistical Modeling • API‑Driven Analytics</h3>
+<h3 align="center">Full Stack Dev • Data Analyst • Python Automation • Statistical Modeling • API‑Driven Analytics</h3>
 
 ---
 
@@ -17,6 +17,21 @@ I work extensively with **SQL**, **Power BI**, and cloud‑based data platforms,
 - **Data Engineering** — ETL pipelines, ingestion, transformation, API integration, workflow automation  
 - **Data Visualization** — Matplotlib, Seaborn, Streamlit, Altair, Power BI (advanced DAX, data modeling)  
 - **SQL & Databases** — Query optimization, joins, CTEs, stored procedures  
+
+---
+
+## 🚀 Featured Project: Automated Data Pipeline & Streamlit Dashboard
+
+An end‑to‑end Python application that automates payroll data collection, cleans and structures financial datasets, and delivers an interactive analytics dashboard for exploring employee compensation across branches, job classes, and fiscal years.
+
+This project brings together:
+- **Web Automation** — Programmatically retrieves payroll data from external sources  
+- **Data Engineering** — Cleans, validates, and transforms raw financial datasets into analysis‑ready tables  
+- **Workflow Automation** — Fully reproducible pipeline built with Python scheduling and modular ETL design  
+- **Interactive Visualization** — Streamlit dashboard for filtering, comparing, and exploring compensation metrics  
+
+🔧 **Tech Stack:** Python, Pandas, NumPy, Selenium/Requests, Streamlit, Matplotlib/Seaborn, JSON, ETL workflows  
+📊 **Focus Areas:** Automation, data engineering, dashboard development, reproducible analytics  
 
 ---
 
@@ -60,4 +75,3 @@ I work extensively with **SQL**, **Power BI**, and cloud‑based data platforms,
     <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" width="40" height="40"/>
   </a>
 </p>
-
